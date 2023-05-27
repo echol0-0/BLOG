@@ -1,0 +1,158 @@
+body {
+  background-image: url('https://imagedelivery.net/9sCnq8t6WEGNay0RAQNdvQ/UUID-cl9ef0qn33092qqowog624n45/public');
+  background-size: cover;
+  background-position: center;
+}
+body {
+  background-color: #f7f7f7;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 20px;
+  box-sizing: none;
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-button {
+  display: ;
+  padding: 10px 15px;
+  margin-left: 10px;
+  text-decoration: none;
+  background-color: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#welcomeSection {
+  text-align: center;
+}
+
+#welcomeSection h2,
+#welcomeSection p {
+  color: white;
+}
+
+#blogPostsContainer {
+  margin-top: 20px;
+}
+
+.blogPost {
+  background-color:;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+/* Rest of the CSS styles... */
+
+#authorBioSection {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#authorBioSection h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#authorBioSection img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+#authorBioSection p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 0px;
+}
+#pollWidget {
+  margin-top: 0px;
+}
+
+#pollOptions {
+  list-style-type: none;
+  padding: 0;
+}
+
+#pollOptions li {
+  margin-bottom: 0px;
+}
+
+#voteCount {
+  margin-top: 0px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: none;
+  font-size: 14px;
+}
+#pollWidget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust as needed to fit the desired height */
+}
+
+#pollOptions {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+#pollOptions li {
+  margin-right: 10px;
+}
+
+#pollOptions li button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pollOptions li img {
+  width: 100px;
+  height: auto;
+  #pollResults {
+  margin-top: 20px;
+}
