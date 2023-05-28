@@ -1,63 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Blog</title>
+  <title>Login</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <header>
     <h1><a href="index.html">My Blog</a></h1>
-   <nav>
-  <a href="blog.html" class="nav-button">Blog</a>
-  <a href="about.html" class="nav-button">About</a>
-  <a href="contact.html" class="nav-button">Contact</a>
-</nav>
   </header>
 
-  <section id="createPostSection">
-    <h2>Create a New Blog Post</h2>
-    <form id="createPostForm">
-      <label for="postTitle">Title:</label>
-      <input type="text" id="postTitle" required>
+  <section id="loginSection">
+    <h2>Login</h2>
+    <form id="loginForm" action="login.php" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
 
-      <label for="postContent">Content:</label>
-      <textarea id="postContent" required></textarea>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
 
-      <button type="submit">Create Post</button>
+      <button type="submit">Login</button>
     </form>
   </section>
-
-  <section id="blogPostsSection">
-    <h2>Blog Posts</h2>
-    <div id="blogPostsContainer"></div>
-  </section>
-
-  <!-- Rest of the content -->
-
-  <section id="authorBioSection">
-    <h3>About the Author</h3>
-    <img src="https://www.christies.com/-/media/project/christies-discovery/discovery-website/mslp/2023/05-23/20-21-ny/collections/essay-images/mark-stevens-on-francis-bacon.jpg?as=0&dmc=0&iar=0&thn=0&udi=0&rev=6c4a099844c14b8b86f0a5ef83676e95" alt="My Image">
-    <p>This is a blog, and my name is Echo</p>
-    <ul class="social-links">
-      <li><a href="https://twitter.com/echoo0_0" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-      <!-- Add more social media links as needed -->
-    </ul>
-  </section>
-
-  <div id="pollWidget">
-    <h3>What book should I read next?</h3>
-    <ul id="pollOptions">
-      <li><button onclick="vote(0)"><img src="https://assets.lulu.com/cover_thumbs/k/q/kqepdw-front-shortedge-384.jpg" alt="Book A"></button></li>
-      <li><button onclick="vote(1)"><img src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale/jackets/9781780935379.jpg" alt="Book B"></button></li>
-      <li><button onclick="vote(2)"><img src="https://m.media-amazon.com/images/I/41uBebUHQgS._AC_UF1000,1000_QL80_.jpg" alt="Book C"></button></li>
-    </ul>
-    <p id="voteCount">Total votes: 0</p>
-  </div>
 
   <footer>
     <p>&copy; 2023 My Blog. All rights reserved.</p>
   </footer>
-
-  <script src="script.js"></script>
-  <script>
-    // Function to
+</body>
+</html>
